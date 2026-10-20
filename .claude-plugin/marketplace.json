@@ -1,0 +1,46 @@
+{
+    "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+    "name": "cc-orchestrador-subagents",
+    "description": "Persistent multi-agent engineering orchestrator for Claude Code with verified memory, FTS5 history, durable resume, lifecycle adapters, worktrees, deterministic validation, telemetry, adaptive routing and curated learning.",
+    "owner": {
+        "name": "allanharlen",
+        "email": "allanharlen@gmail.com"
+    },
+    "allowCrossMarketplaceDependenciesOn": [
+        "cc-antigravity-plugin",
+        "openai-codex"
+    ],
+    "plugins": [
+        {
+            "name": "cc-orchestrador-subagents",
+            "description": "Orchestrator skill + /orchestrator command for PRD-driven Codex/Antigravity execution with verified project knowledge, crash-safe lifecycle, physical isolation, programmatic validation, telemetry, learning recipes and auditable delivery.",
+            "version": "4.25.0",
+            "author": {
+                "name": "allanharlen"
+            },
+            "source": "./",
+            "category": "orchestration",
+            "keywords": [
+                "orchestrator",
+                "multi-agent",
+                "subagents",
+                "prd",
+                "codex",
+                "antigravity",
+                "parallel-execution",
+                "workflow",
+                "claude-code",
+                "persistent-state",
+                "resume",
+                "project-memory",
+                "fts5",
+                "worktrees",
+                "telemetry",
+                "adaptive-routing",
+                "learning"
+            ],
+            "homepage": "https://github.com/AllanHarlen/cc-orchestrador-subagents",
+            "repository": "https://github.com/AllanHarlen/cc-orchestrador-subagents"
+        }
+    ]
+}
